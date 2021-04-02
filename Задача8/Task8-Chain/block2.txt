@@ -1,0 +1,13 @@
+{
+    "index":2,
+    "pre_hash":"0000cabd47c025dc8971602adc5434922411ae1862e2fb66984d9866839af971",
+    "data":{
+        "from":"Bob",
+        "to":"Alice",
+        "value":20
+    },
+    "creator":"Bob",
+    "nonce":24267,
+    "hash":"0000612a353100811cc669a3ff75348ba6099041bb58f320168f07ab6c702285",
+    "sign":"0027f1bb283f28a8b8cdb1cad328b0fd139702eb1efc0a997578ab04c285a5366d2e6a6e4cfed203e25127d5cc0ad31013d3a64989d79620167f872f981b9670"
+}
