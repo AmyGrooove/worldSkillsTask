@@ -1,7 +1,7 @@
 const fs = require("fs")
 const { sha3_256 } = require("js-sha3")
 
-let task3File = fs.readFileSync("./Task3-hash.txt", "utf-8").toString()
+let task3File = fs.readFileSync("./Задача3/Task3-hash.txt", "utf-8").toString()
 
 let a = 1
 let answerObj = {}

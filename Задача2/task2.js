@@ -1,7 +1,7 @@
 const cryptoJS = require("crypto-js")
 const fs = require("fs")
 
-let task2File = fs.readFileSync("./Task2-block.json", "utf-8")
+let task2File = fs.readFileSync("./Задача2/Task2-block.json", "utf-8")
 
 const taskObj = JSON.parse(task2File)
 
