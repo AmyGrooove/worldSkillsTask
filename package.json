@@ -3,5 +3,15 @@
     "crypto-js": "^4.0.0",
     "fs": "^0.0.1-security",
     "js-sha3": "^0.8.0"
+  },
+  "scripts": {
+    "task1": "node ./Задача1/task1",
+    "task2": "node ./Задача2/task2",
+    "task3": "node ./Задача3/task3",
+    "task4": "node ./Задача4/task4",
+    "task5": "node ./Задача5/task5",
+    "task6": "node ./Задача6/task6",
+    "task7": "node ./Задача7/task7",
+    "task8": "node ./Задача8/task8"
   }
 }
