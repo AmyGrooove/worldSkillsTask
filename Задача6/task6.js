@@ -27,4 +27,4 @@ while (files.length != 1) {
 
 files = files[0]
 
-console.log(files, check)
+console.log(check, files)
