@@ -2,11 +2,9 @@ const fs = require("fs")
 const cryptoJS = require("crypto-js")
 
 let task6File = fs.readFileSync("./Задача6/Тask6-Транзакции.txt", "utf-8").toString()
-
 let files = task6File.split("\r\n")
 
-buf = []
-
+let buf = []
 let check = 1
 
 files.forEach((el, i) => {
@@ -26,5 +24,7 @@ while (files.length != 1) {
     buf = []
     check++
 }
+
+files = files[0]
 
 console.log(files, check)
