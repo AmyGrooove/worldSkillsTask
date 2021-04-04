@@ -11,7 +11,7 @@ while(true) {
 
     str2 = sha3_256(str2)
 
-    if (str2 == task4File){
+    if (str2 == task4File) {
         break
     }
 

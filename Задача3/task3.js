@@ -11,7 +11,7 @@ while(true) {
 
     let timeStamp = ((new Date(2020, 0, a, 3).getTime()) / 1000).toString()
 
-    switch(task3File.length) {
+    switch (task3File.length) {
         case 56: check = sha3_224(timeStamp).toString()
         break
         case 64: check = sha3_256(timeStamp).toString()
@@ -22,7 +22,7 @@ while(true) {
         break
     }
 
-    if(check == task3File) {
+    if (check == task3File) {
         answerObj.day = (new Date(2020, 0, a, 3)).getDate()
         answerObj.month = (new Date(2020, 0, a, 3)).getMonth() + 1
         answerObj.unixTime = (new Date(2020, 0, a, 3)).getTime() / 1000

@@ -7,7 +7,7 @@ const taskObj = JSON.parse(task2File)
 
 let nonceNumber = 0
 
-while(true) {
+while (true) {
     taskObj.nonce = nonceNumber
     task2File = JSON.stringify(taskObj)
 
@@ -15,7 +15,7 @@ while(true) {
 
     const hashBlock = cryptoJS.SHA256(task2File).toString()
 
-    if(hashBlock.substr(hashBlock.length - 4) == "0000"){
+    if (hashBlock.substr(hashBlock.length - 4) == "0000") {
         taskObj.hash = hashBlock
         break
     }

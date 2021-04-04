@@ -10,8 +10,8 @@ let balance2 = 0
 
 files.forEach(el => {
     if(el.from == task5File_Adr) {
-        if((el.type == "send") || (el.type == "cash")) {
-            if(new Date(el.time* 1000).getMonth() < 6) {
+        if ((el.type == "send") || (el.type == "cash")) {
+            if (new Date(el.time* 1000).getMonth() < 6) {
                 balance1 -= el.value
             } else {
                 balance2 -= el.value
