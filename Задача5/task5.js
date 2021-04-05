@@ -3,7 +3,7 @@ const fs = require("fs")
 let task5File_List = fs.readFileSync("./Задача5/Task5-txlist.txt", "utf-8").toString()
 let task5File_Adr = fs.readFileSync("./Задача5/Task5-adr.txt", "utf-8").toString()
 
-let files = task5File_List.split("\n").filter(Boolean).map(JSON.parse)
+let files = task5File_List.split("\r\n").filter(Boolean).map(JSON.parse)
 
 let balance1 = 0
 let balance2 = 0

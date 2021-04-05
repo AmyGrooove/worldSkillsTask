@@ -2,7 +2,8 @@
   "dependencies": {
     "crypto-js": "^4.0.0",
     "fs": "^0.0.1-security",
-    "js-sha3": "^0.8.0"
+    "js-sha3": "^0.8.0",
+    "node-rsa": "^1.1.1"
   },
   "scripts": {
     "task1": "node ./Задача1/task1",
