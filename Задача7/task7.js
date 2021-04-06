@@ -9,7 +9,7 @@ const key = new NodeRSA()
 
 key.importKey({
     n: task6File[2],
-    e: 65537,
+    e: task6File[1],
     d: task6File[0],
     p: task6File[3],
     q: task6File[4],

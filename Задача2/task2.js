@@ -16,6 +16,7 @@ while (true) {
     const hashBlock = cryptoJS.SHA256(task2File).toString()
 
     if (hashBlock.substr(hashBlock.length - 4) == "0000") {
+        console.log(JSON.stringify(taskObj))
         taskObj.hash = hashBlock
         break
     }
